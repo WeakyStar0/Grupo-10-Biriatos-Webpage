@@ -1,0 +1,42 @@
+.footer {
+  background-color: black !important;
+  color: white;
+  width: 100%;
+  text-align: left;
+  padding: 10px 0;
+  flex-shrink: 0; 
+  z-index: 3;
+  overflow: hidden;
+  position: relative;
+}
+
+.footer h5 {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  z-index: 3;
+}
+
+.footer-background-image {
+  position: absolute;
+  top: 80%;
+  left: 85%;
+  width: 30%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.footer-text {
+  text-decoration: none;
+}
+
+.footer-anim {
+  transition: opacity 0.3s ease;
+}
+
+.footer-anim:hover {
+  opacity: 0.5;
+}

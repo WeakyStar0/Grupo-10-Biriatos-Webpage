@@ -1,14 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; 
+  overflow: hidden;
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column; /* Para organizar os elementos verticalmente */
 }
-
 .webpage {
   background-color: #ffffff;
   display: flex;
@@ -16,8 +14,13 @@ body {
   justify-content: center;
   width: calc(100% / 0.85); 
   height: calc(100% / 0.85);
+  transform-origin: top left;
   
-  transform-origin: top left; 
+  flex: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+  
+ 
+  align-items: center;
+  
 }
 
 .webpage .overlap-wrapper {
@@ -86,8 +89,8 @@ body {
 
 .webpage .rectangle {
   width: calc(7000px * 0.85);
-  height: calc(387px * 0.85);
-  top: calc(-269px * 0.85);
+  height: calc(487px * 0.85);
+  top: calc(-300px * 0.85);
   left: calc(-17px * 0.85);
   background-color: #ffffff;
   border: calc(45px * 0.85) solid;
@@ -99,7 +102,7 @@ body {
 .webpage .rectangle-2 {
   width: calc(6868px * 0.85);
   height: calc(363px * 0.85);
-  top: calc(-183px * 0.85);
+  top: calc(-229px * 0.85);
   left: calc(22px * 0.85);
   background-color: #000000;
   position: absolute;
@@ -109,8 +112,8 @@ body {
 .webpage .fa-a-download-da-app {
   position: absolute;
   width: calc(658px * 0.85);
-  top: calc(850px * 0.85);
-  left: calc(681px * 0.85);
+  top: calc(890px * 0.85);
+  left: calc(600px * 0.85);
   transform: rotate(-22.42deg);
   font-family: "Futura Std-Regular", Helvetica;
   font-weight: 400;
@@ -120,12 +123,14 @@ body {
   line-height: normal;
 }
 
+
 .webpage .text-wrapper {
   font-family: "Futura Std-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: calc(36px * 0.85);
   letter-spacing: 0;
+  
 }
 
 .webpage .span {
@@ -135,8 +140,8 @@ body {
 .webpage .text-wrapper-2 {
   position: absolute;
   width: calc(554px * 0.85);
-  top: calc(1107px * 0.85);
-  left: calc(745px * 0.85);
+  top: calc(1067px * 0.85);
+  left: calc(777px * 0.85);
   transform: rotate(-22.42deg);
   font-family: "Futura Std-Heavy", Helvetica;
   font-weight: 400;
@@ -148,8 +153,8 @@ body {
 
 .webpage .VIRIATOS-SCOUTING {
   position: absolute;
-  top: calc(460px * 0.85);
-  left: calc(645px * 0.85);
+  top: calc(540px * 0.85);
+  left: calc(520px * 0.85);
   transform: rotate(-11.21deg);
   font-family: "Futura Std-Medium", Helvetica;
   font-weight: 400;
@@ -171,11 +176,20 @@ body {
   line-height: normal;
 }
 
+.webpage .text-wrapper-5 {
+  font-family: "Futura Std-Bold", Helvetica;
+  font-weight: bold; 
+  color: #ffffff;
+  font-size: calc(36px * 0.85);
+  letter-spacing: 0;
+}
+
+
 .webpage .logo {
   position: absolute;
   width: calc(246px * 0.85);
   height: calc(246px * 0.85);
-  top: calc(729px * 0.85);
+  top: calc(700px * 0.85);
   left: calc(1969px * 0.85);
 }
 
@@ -183,8 +197,9 @@ body {
   position: absolute;
   width: calc(15px * 0.85);
   height: calc(75px * 0.85);
-  top: calc(1149px * 0.85);
+  top: calc(1075px * 0.85);
   left: calc(2135px * 0.85);
+  
 }
 
 .webpage .element {
@@ -225,6 +240,7 @@ body {
   left: calc(1508px * 0.85);
   background-color: #ffd201;
   border-radius: calc(17px * 0.85);
+  opacity: 0;
 }
 
 .webpage .vector {
@@ -239,16 +255,19 @@ body {
   position: absolute;
   width: calc(805px * 0.85);
   height: calc(825px * 0.85);
-  top: calc(726px * 0.85);
+  top: calc(728px * 0.85);
   left: calc(1411px * 0.85);
+  
 }
 
-.fade-out {
+
+
+#dynamic-text-2 {
   opacity: 0;
-  transition: opacity 0.5s ease-out;
+  position: absolute;
+ 
+  z-index: 1; 
 }
 
-.fade-in {
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
-}
+
+
