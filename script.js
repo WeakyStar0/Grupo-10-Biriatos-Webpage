@@ -141,4 +141,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Inicializa o conteúdo com o primeiro estado
     changeContent(0);
+
+
+    
+
 });

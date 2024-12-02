@@ -1,0 +1,166 @@
+body{
+  background-color: #373737;
+
+
+}
+
+.tos {
+  background-color: #373737;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tos .div {
+  background-color: #373737;
+  overflow: hidden;
+  width: 1608px;
+  height: 1606px;
+  position: relative;
+}
+
+.tos .overlap {
+  position: absolute;
+  width: 1602px;
+  height: 1686px;
+  top: -33px;
+  left: 188px;
+}
+
+.tos .logo-bg {
+  position: absolute;
+  width: 1052px;
+  height: 1052px;
+  top: 55px;
+  left: 550px;
+}
+
+.tos .TOS-texto {
+  position: absolute;
+  width: 1058px;
+  height: 1653px;
+  top: 33px;
+  left: 2px;
+}
+
+.tos .overlap-group {
+  position: relative;
+  width: 1056px;
+  height: 1653px;
+  background-color: #ffffff;
+}
+
+.tos .linha-baixo {
+  position: absolute;
+  width: 965px;
+  height: 2px;
+  top: 1589px;
+  left: 48px;
+}
+
+.tos .termos {
+  position: absolute;
+  width: 882px;
+  top: 285px;
+  left: 89px;
+  font-family: "Futura Std-Book", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tos .branco-cima {
+  position: absolute;
+  width: 937px;
+  height: 276px;
+  top: 16px;
+  left: 70px;
+  background-color: #ffffff;
+}
+
+.tos .linha-cima {
+  position: absolute;
+  width: 965px;
+  height: 2px;
+  top: 301px;
+  left: 53px;
+}
+
+.tos .logo-cima {
+  position: absolute;
+  width: 246px;
+  height: 246px;
+  top: 46px;
+  left: 406px;
+}
+
+.tos .titulo {
+  position: absolute;
+  width: 803px;
+  top: 124px;
+  left: 129px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Futura Std-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tos .cachecol {
+  position: absolute;
+  width: 1686px;
+  height: 1059px;
+  top: 314px;
+  left: -313px;
+  transform: rotate(-90.00deg);
+}
+
+.tos .overlap-2 {
+  position: relative;
+  height: 1059px;
+}
+
+.tos .branco {
+  position: absolute;
+  width: 1677px;
+  height: 1022px;
+  top: 18px;
+  left: 9px;
+  border: 29px solid;
+  border-color: #000000;
+}
+
+.tos .preto {
+  position: absolute;
+  width: 1677px;
+  height: 1056px;
+  top: 1px;
+  left: 9px;
+  border: 10px solid;
+  border-color: #000000;
+}
+
+.tos .branco-baixo {
+  position: absolute;
+  width: 1059px;
+  height: 43px;
+  top: 508px;
+  left: -508px;
+  background-color: #ffffff;
+  transform: rotate(90.00deg);
+}
+
+.futura-bold {
+  font-family: "Futura Std-Bold", Helvetica !important; 
+  font-weight: bold !important; 
+  color: #000000; 
+}
+
+
+
