@@ -1,4 +1,4 @@
-.div {
+.footer {
   background-color: black !important;
   color: white;
   width: 100%;
@@ -10,7 +10,11 @@
   position: relative;
 }
 
-.div h5 {
+div {
+  background-color: black !important;
+}
+
+.footer h5 {
   font-size: 1.1em;
   margin-bottom: 0.5em;
   z-index: 3;
