@@ -5,41 +5,45 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column; /* Para organizar os elementos verticalmente */
+  flex-direction: column;
+  /* Para organizar os elementos verticalmente */
 }
+
 .webpage {
+  height: 100vh;
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: calc(100% / 0.85); 
+  width: calc(100% / 0.85);
   height: calc(100% / 0.85);
   transform-origin: top left;
-  
-  flex: 1; /* Faz o conteúdo principal ocupar o espaço restante */
-  
- 
+
+  flex: 1;
+  /* Faz o conteúdo principal ocupar o espaço restante */
+
+
   align-items: center;
-  
+
 }
 
 .webpage .overlap-wrapper {
   background-color: #ffffff;
-  overflow: visible; 
+  overflow: visible;
   width: 100vw;
   height: auto;
 }
 
 .webpage .mega-overlap-wrapper {
   background-color: #ffffff;
-  overflow: visible; 
+  overflow: visible;
   width: 100vw;
   height: auto;
 }
 
 .webpage .overlap {
   position: relative;
-  width: calc(3345px * 0.85); 
+  width: calc(3345px * 0.85);
   height: calc(870px * 0.85);
   top: calc(-674px * 0.85);
   left: calc(-776px * 0.85);
@@ -130,7 +134,7 @@ body {
   color: #ffffff;
   font-size: calc(36px * 0.85);
   letter-spacing: 0;
-  
+
 }
 
 .webpage .span {
@@ -169,16 +173,16 @@ body {
 
 .webpage .text-wrapper-4 {
   font-family: "Futura Std-Bold", Helvetica;
-  font-weight: bold; 
-  color: #000000; 
-  font-size: calc(89.2px * 0.85); 
+  font-weight: bold;
+  color: #000000;
+  font-size: calc(89.2px * 0.85);
   letter-spacing: 0;
   line-height: normal;
 }
 
 .webpage .text-wrapper-5 {
   font-family: "Futura Std-Bold", Helvetica;
-  font-weight: bold; 
+  font-weight: bold;
   color: #ffffff;
   font-size: calc(36px * 0.85);
   letter-spacing: 0;
@@ -199,7 +203,7 @@ body {
   height: calc(75px * 0.85);
   top: calc(1075px * 0.85);
   left: calc(2135px * 0.85);
-  
+
 }
 
 .webpage .element {
@@ -257,7 +261,7 @@ body {
   height: calc(825px * 0.85);
   top: calc(728px * 0.85);
   left: calc(1411px * 0.85);
-  
+
 }
 
 
@@ -265,9 +269,6 @@ body {
 #dynamic-text-2 {
   opacity: 0;
   position: absolute;
- 
-  z-index: 1; 
+
+  z-index: 1;
 }
-
-
-
